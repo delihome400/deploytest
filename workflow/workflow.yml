@@ -1,0 +1,7 @@
+name: deploytest
+
+on: [workflow_dispatch]
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
