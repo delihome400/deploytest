@@ -1,0 +1,12 @@
+name: deploytest
+
+on: [workflow_dispatch]
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Run a one-line command'
+        run: echo 'hello from GitHub Actions, Mitchel!'
+      - name: 'Run a multi-line command'
+        run: echo 'Meerdere stappen volgen nog'
