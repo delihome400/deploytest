@@ -1,6 +1,11 @@
 name: testworkflow
 
-on: [workflow_dispatch]
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'deploy/**'
 
 permissions:
   id-token: write
